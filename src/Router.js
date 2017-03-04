@@ -9,9 +9,9 @@ const RouterComponent = () => {
 			<Scene key="auth">
 				<Scene key="login" component={LoginForm} title="Please Login" />
 			</Scene>
-			
+
 			<Scene key="main">
-				<Scene key="employeeList" component={EmployeeList} title="Employees" />
+				<Scene key="employeeList" component={EmployeeList} title="Employees" rightTitle="Add" onRight={() => console.log('right!')} />
 			</Scene>
 		</Router>
 	);
