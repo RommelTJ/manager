@@ -8,3 +8,9 @@ export const employeeUpdate = ({ prop, value }) => {
 		payload: { prop, value }
 	};
 };
+
+export const employeeCreate = ({ name, phone, shift }) => {
+	return {
+
+	};
+};
